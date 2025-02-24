@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0 auto;
+   padding: 10px;
+   max-width: 760px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #e2cd0def;
+   color: #080808;
+}
+
+h1 {
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#showTotalRooms {
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.wrapper {
+   width: 100%;
+   float: left;
+}
+
+.wrapper div {
+   margin-bottom: 10px;
+   width: 360px;
+   float: left;
+   padding: 10px;
+}
+
+.record {
+   padding: 10px;
+}
+
+h3 {
+   margin-bottom: 10px;
+}
+
+label {
+   display: block;
+   margin-bottom: 6px;
+   margin-top: 6px;
+   font-size: 1rem;
+}
+
+input[type="text"] {
+   display: block;
+   padding: 6px 8px;
+   width: 100%;
+   font-size: 1rem;
+   line-height: 1.2;
+   background-color: #FAFAFA;
+   border: 3px solid #c6f1d7;
+   border-radius: 5px;
+}
+
+input[type="text"]:focus {
+   border: 3px solid #90D26D;
+   box-shadow: none;
+   outline: none;
+}
+
+input[type="button"] {
+   margin-top: 10px;
+   padding: 6px 8px;
+   font-size: 1rem;
+   line-height: 1.2;
+   color: rgb(5, 5, 5);
+   background-color: #11bf11;
+   border: 3px solid #1FAB60;
+   border-radius: 5px;
+}
+
+input[type="button"]:hover {
+   cursor: pointer;
+}
+
+input[type="button"]:focus {
+   background-color: #11BF90;
+   border: 3px solid #90D26D;
+   box-shadow: none;
+   outline: none;
+}
+
+input[type="button"]:active {
+   background-color: #1FAB60;
+   border: 3px solid #1FAB60;
+   box-shadow: none;
+   outline: none;
+}
+
+p {
+   margin-top: 10px;
+   font-size: 1rem;
+}
+
+#recordList span {
+   display: block;
+   margin-bottom: 6px;
+}
+
+.record h3 span {
+   display: inline-block;
+   font-size: 1.5rem;
+   vertical-align: middle;
+}
+
+#clearAllBtn {
+   display: inline-block;
+   margin-top: 0;
+   margin-left: 0px;
+   padding: 4px 6px;
+   font-size: 1rem;
+   font-weight: normal;
+   line-height: 1.2;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   background-color: #FF5556;
+   border: 2px solid #D04550;
+   border-radius: 5px;
+}
+
+#clearAllBtn:focus {
+   background-color: #FF5656;
+   border: 2px solid #FF6F6F;
+   box-shadow: none;
+   outline: none;
+}
+
+#clearAllBtn:active {
+   background-color: #D04550;
+   border: 2px solid #D04550;
+   box-shadow: none;
+   outline: none;
+}
+
+@media only screen and (max-width: 759px) {
+   .wrapper div {
+      margin-bottom: 10px;
+      width: 100%;
+      float: none;
+      padding: 5px;
+   }
+}

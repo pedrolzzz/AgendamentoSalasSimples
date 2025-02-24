@@ -1,0 +1,59 @@
+<head>
+    <link rel="stylesheet" href="./style.css" />
+ 
+</head>
+
+<h1>Agendamento de Salas</h1>
+<p id="showTotalRooms"></p>
+
+<div class="wrapper">
+   <div class="checkRoomAvailForm">
+      <h3>Checar Sala</h3>
+      <label for="checkRoomAvail">Digite o Numero da Sala.</label>
+      <input id="checkRoomAvail" type="text" value="" placeholder="Sala">
+      <!--<br>-->
+      <input id="checkRoomAvailBtn" type="button" value="Checar">
+      <!--<br>-->
+      <p id="checkRoomAvailStatus"></p>
+   </div>
+
+   <div class="addOccupantForm">
+      <h3>Agendar uma Sala</h3>
+      <label for="addOccupantName">Nome do Professor</label>
+      <input id="addOccupantName" type="text" value="" placeholder="Professor">
+      <!--<br>-->
+      <label for="addOccupantRoomNo">Informe a Sala.</label>
+      <input id="addOccupantRoomNo" type="text" value="" placeholder="Sala">
+      <!--<br>-->
+      <input id="addOccupantBtn" type="button" value="Agendar">
+      <!--<br>-->
+      <p id="addOccupantStatus"></p>
+   </div>
+
+   <div class="clearRoomForm">
+      <h3>Limpar Agendamentos</h3>
+      <label for="clearRoomNo">Informe a Sala.</label>
+      <input id="clearRoomNo" type="text" value="" placeholder="Sala">
+      <!--<br>-->
+      <input id="clearRoomBtn" type="button" value="Limpar">
+      <!--<br>-->
+      <p id="clearRoomStatus"></p>
+   </div>
+
+   <div class="searchOccupantForm">
+      <h3>Quem está ocupando a Sala</h3>
+      <label for="searchOccupant">Sala ou Nome do Professor</label>
+      <input id="searchOccupant" type="text" value="" placeholder="Sala ou Professor">
+      <!--<br>-->
+      <input id="searchOccupantBtn" type="button" value="Procurar">
+      <!--<br>-->
+      <p id="searchOccupantStatus"></p>
+   </div>
+</div>
+
+<div class="record">
+   <h3><span></span><input id="clearAllBtn" type="button" value="Limpar Tudo"></h3>
+   <p id="recordList"></p>
+</div>
+
+<script src="./script.js"></script>
